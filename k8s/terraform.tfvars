@@ -11,7 +11,7 @@ ssh_cidr_blocks = ["0.0.0.0/0"]
 k8s_version   = "v1.30"
 master_count  = 1
 worker_count  = 1
-instance_type = "t2.medium"
+instance_type = "t3.medium"
 volume_size   = 50
 volume_type   = "gp3"
 
